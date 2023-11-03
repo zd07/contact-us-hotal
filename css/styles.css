@@ -1,0 +1,68 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-header {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../images/header-banner-contact.jpg);
+    height: 40vh;
+    color: white;
+    background-size: cover;
+    background-color: rgba(248, 248, 248, 0.336);
+    background-blend-mode: difference;
+
+}
+
+.cstm {
+    background-image: url(../images/bg-contact-card-left.png);
+    background-color: #267883;
+    background-size: cover;
+}
+
+/* .title{
+    position: relative;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: .01em;
+} */
+textarea {
+    resize: none;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: none !important;
+    border-color: #0f97aa !important;
+
+}
+
+.underline-ctm {
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+h6{
+    cursor: pointer;
+}
+.custom:hover .underline-ctm {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+/* .social-link:hover{
+    background-color: #778789;
+} */
+.social-link i:hover{
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #ffffff70;
+}
+
+/* body{
+    background-image: url(../images/hotel.jpg);
+} */
